@@ -1,0 +1,16 @@
+GET http://localhost:5000/users
+Accept: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6IkFETUlOX3RocmVlIiwiaWQiOjQsInJvbGUiOlt7ImlkIjoxLCJ2YWx1ZSI6IkFETUlOIiwiZGVzY3JpcHRpb24iOiJUaGlzIGRlc2NyaXB0aW9uIG9mIGFkbWluIHJvbGUiLCJjcmVhdGVkQXQiOiIyMDIzLTA5LTI0VDA4OjQ5OjA4LjA2OFoiLCJ1cGRhdGVkQXQiOiIyMDIzLTA5LTI0VDA4OjQ5OjA4LjA2OFoiLCJVc2VyUm9sZXMiOnsiaWQiOjMsInJvbGVJZCI6MSwidXNlcklkIjo0fX1dLCJpYXQiOjE2OTU1NTA0MzksImV4cCI6MTY5NTYzNjgzOX0.IRcFRxCzVpAKqhX1cevDgachs-RNlN4G6HXTRbcPYuY
+
+<> 2023-09-24T114603.200.json
+
+###
+POST http://localhost:5000/users
+Content-Type: application/json
+
+{
+  "email": "user2",
+  "password": "TEST_PASSWORD"
+}
+
+<> 2023-09-24T114540.201.json

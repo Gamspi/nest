@@ -1,0 +1,12 @@
+GET http://localhost:5000/roles/ADMIN
+Accept: application/json
+
+
+###
+POST http://localhost:5000/roles
+Content-Type: application/json
+
+{
+  "value": "ADMIN",
+  "description": "This description of admin role"
+}
